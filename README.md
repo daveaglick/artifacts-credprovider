@@ -34,7 +34,7 @@ If you are using `dotnet` or `nuget`, you can use the Azure Artifact Credential 
 
 #### Automatic PowerShell script
 
-[PowerShell helper script](helpers/installcredprovider.ps1)
+[PowerShell helper script](helpers/installcredprovider.ps1) ([raw file](https://github.com/microsoft/artifacts-credprovider/raw/master/helpers/installcredprovider.ps1))
 - To install netcore, run `installcredprovider.ps1`
 - To install both netfx and netcore, run `installcredprovider.ps1 -AddNetfx`. The netfx version is needed for nuget.exe.
 
